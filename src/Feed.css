@@ -1,0 +1,36 @@
+.feed{
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+    color: white;
+    overflow-y: scroll;
+    /* max-width: fit-content; */
+    border: 1px solid var(--twitter-background);
+}
+.feed::-webkit-scrollbar{
+    display: none;
+}
+.feed__header{
+    display: flex;
+    border: 1px solid grey;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    background-color: black;
+    
+}
+.feed__header > h2{
+    margin-left: 20px;
+}
+.sc{
+    margin-right: 20px;
+}
+.feed__msg{
+    border: 1px solid grey;
+    color: grey;
+    display: flex;
+}
+

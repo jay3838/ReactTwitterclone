@@ -1,0 +1,10 @@
+.App{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 200vh;
+}
+body{
+    --twitter-color:#50b7f5;
+   --twitter-background:#e6ecf0;    
+}

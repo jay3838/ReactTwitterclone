@@ -1,0 +1,67 @@
+.tweetbox > hr{
+    border: 7px solid rgb(51, 51, 51);
+}
+.jp{
+    border: 0.5px solid  rgb(51, 51, 51);
+    width: 470px;
+    margin-left: 90px;
+    margin-top: 10px;
+
+}
+.tweetbox__input{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    /* flex-wrap: wrap;s */
+    /* justify-content: space-evenly; */
+    
+}
+.tweetbox__input>input:focus{
+    outline: none;
+}
+.as{
+    margin-left: 30px;
+}
+.tweetbox__input > input{
+
+    flex:1;
+    margin-left:20px;
+    color: white;
+    background-color: black;
+    height:30px;
+    border-radius: 10px;
+    font-size: 30px;
+    /* display: none; */
+    border: none;
+
+}
+.tweetbox__image:focus{
+    outline: none;
+}
+.tweetbox__image{
+    flex:1;
+    margin-top: 10px;
+    margin-left:100px;
+    color: white;
+    background-color: black;
+    height:20px;
+    border-radius: 10px;
+    font-size: 20px;
+    /* display: none; */
+    border: none;
+
+}
+.tweetbox >.MuiButton-outlined{
+    background-color: var(--twitter-color) !important;
+    border: none !important;
+    color: white !important ;
+    font-weight: 900   !important;
+    text-transform: inherit  !important;
+    font-size: 12px;
+    border-radius:30px !important;
+    height: 40px !important;
+    margin-top: 20px !important;
+    width: 5rem;
+    margin-left:490px !important;
+    
+}
